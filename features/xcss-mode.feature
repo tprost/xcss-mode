@@ -1,11 +1,9 @@
-Feature: Do Some things
-  In order to do something
+Feature: Existing
+  In order to edit a CSS file
   As a user
-  I want to do something
+  I want to run XCSS mode
 
-  Scenario: Do Something
-    Given I have "something"
-    When I have "something"
-    Then I should have "something"
-    And I should have "something"
-    But I should not have "something"
+  Scenario: With a buffer open
+    Given I am in buffer "my-buffer"
+    And I turn on xcss-mode
+    Then I should be in major mode "xcss-mode"
