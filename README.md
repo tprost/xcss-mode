@@ -11,6 +11,8 @@ It should indent anything inside curly brackets.
 ### Font Faces
 - CSS selectors
 - CSS attributes
+- errors for things that aren't proper CSS
+- maybe a font face for brackets and colons and semicolons
 - `$variables-with-dollar-signs`
 - things that start with @ I guess
 
